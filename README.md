@@ -3,8 +3,10 @@
 Code for the course: Colab notebooks for every lecture, showcase projects and data.
 Lecturer: Dror Jacoby.
 
-- Course website: https://drorjac.github.io/python-course/
-- The lecture slides are on Moodle.
+## 👉 [Open the course website](https://drorjac.github.io/python-course/)
+
+The website lists every lecture with "Open in Colab" buttons. Start there.
+The lecture slides are on Moodle.
 
 | Folder | What is inside |
 |---|---|
