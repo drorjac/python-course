@@ -6,6 +6,7 @@ Every notebook was executed top to bottom and is saved with its outputs. The mat
 
 | File | What it does | Needs |
 |---|---|---|
+| `S1_part1_recap.ipynb` | **Start here.** The summary of Part 1 as one story: Pip opens a café. Every concept from L01-L03 in lecture order (print, comments, variables, types, math, input, conversion, f-strings, if/else), each with a reminder, café examples and Try it, then a counter program that uses everything, the full Part 1 Bug Zoo, a quiz and a cheat sheet | L01-L03 only |
 | `S1_solar_system.ipynb` | "AI builds a solar system": the prompt we gave a PyCharm AI assistant, planets on circles (animation), the Moon and labels (follow-up prompts), then real gravity (orbit closes after 1 year, simulated years match NASA's 88/225/365/687 days) | L01-L03; lists, loops, functions and plots appear early and are marked "just run it" |
 | `S1_solar_system_pycharm.py` | The same circles animation (with Moon and labels) as one script: run it in PyCharm and a window opens | Python + matplotlib on your computer |
 | `S1x_everyday_python.ipynb` | Python for everyday life: life in numbers, km/miles and NIS/USD converter (example rate), bill splitter with tip, dice roll and Magic 8-ball | L01-L03 only (+ `import random`) |
