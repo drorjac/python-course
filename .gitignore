@@ -1,0 +1,8 @@
+# Safety net: slides never go in this repo
+*.tex
+*.sty
+*.pdf
+*.pptx
+*.zip
+.DS_Store
+.ipynb_checkpoints/

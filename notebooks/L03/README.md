@@ -1,0 +1,8 @@
+# L03 - Input & Output - notebooks
+
+| File | Used on slide | What it contains |
+|---|---|---|
+| `L03_01_print_and_input.ipynb` | print can show several things, sep: choose the glue, end: what comes last, Your first conversation, Surprise: input() always gives text, Try it!, Predict the output (`sep` / `end`) | `print` with commas, `sep="/"`, `sep=""`, `end="..."`, `name = input(...)`, `type(input(...))` and `"5" + "5"`, exercises: date with `sep="."`, favorite food, `I love <city>!` |
+| `L03_02_fstrings.ipynb` | Converting between types, Conversion in action, int() chops, Fix: convert the answer right away, f-strings (3 slides), Money needs 2 digits, tip calculator, split the pizza bill, the long side of a triangle, Try it!, Predict the output (f-strings) | `int()` / `float()` / `str()`, `int(3.9)`, `int(input(...))`, f-strings with variables and math, `:.2f`, tip calculator (15%), pizza split, hypotenuse with `** 0.5`, exercises: age from birth year, 12% tip, triangle area |
+| `L03_03_first_if.ipynb` | Yes-or-no questions, Comparisons in Python, = versus ==, if / else party check, Indentation means "belongs to", free shipping from 200 NIS, even or odd?, Try it!, Predict the output (`if` / `else`) | all six comparisons, `grade == 100`, party age check, `if` without `else` (temperature), free-shipping check, `number % 2 == 0`, exercises: pass/fail at 56, shorts or jeans, password check |
+| `L03_04_bug_zoo.ipynb` | Bug Zoo (3 slides) | one cell per bug: `input()` + 1 without `int()`, `int("3.5")`, `int("twenty")`, `if` without colon, `if` body not indented, with a text cell explaining each fix |
