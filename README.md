@@ -12,6 +12,7 @@ The lecture slides are on Moodle.
 |---|---|
 | `notebooks/LNN/` | The notebooks for each lecture, plus `data/` where a lecture uses a CSV file |
 | `showcase/` | One showcase project and one extra per course part |
+| `extras/` | Going further: optional notebooks beyond the course, with real-world stories |
 | `docs/` | The course website (GitHub Pages) |
 
 To open a notebook, use the "Open in Colab" links on the website.

@@ -37,11 +37,13 @@ h3{margin:22px 0 8px;font-size:1.05rem;color:var(--gray);text-transform:uppercas
 .lecture.soon{opacity:.55}.lecture.soon summary{cursor:default}.lecture.soon summary::before{content:""}
 .soon-tag{margin-left:auto;font-size:.8rem;background:var(--gray-light);border-radius:999px;padding:1px 10px;white-space:nowrap}
 .nb{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;padding:8px 16px;border-top:1px solid var(--line)}
-.nb .name{flex:1 1 220px}.nb img{height:20px;display:block}
+.nb .name{flex:1 1 220px;min-width:0;overflow-wrap:anywhere}.nb img{height:20px;display:block}
 .nb .file{font-family:ui-monospace,Menlo,monospace;font-size:.8rem;color:var(--gray)}
 .folder{padding:8px 16px 12px;border-top:1px solid var(--line);font-size:.9rem}
 .callout{border-radius:12px;padding:14px 16px;margin:12px 0}
 .callout.yellow{background:var(--yellow-light)}.callout.purple{background:var(--purple-light)}.callout.green{background:var(--green-light)}
+.feature{border-left:4px solid var(--purple)}.feature .blurb{padding:12px 16px 4px;margin:0}
+.after{font-size:.8rem;font-weight:600;color:var(--purple);background:var(--purple-light);border-radius:999px;padding:1px 9px;white-space:nowrap}
 footer{padding:24px 16px;color:var(--gray);font-size:.85rem;text-align:center}
 @media (max-width:560px){header .wrap{flex-direction:column;align-items:flex-start}.pip{width:72px;height:72px}}
 </style></head>
@@ -61,7 +63,7 @@ footer{padding:24px 16px;color:var(--gray);font-size:.85rem;text-align:center}
 <h1>Introduction to Programming and Algorithms in Python</h1><p>Dror Jacoby &middot; Tel Aviv University</p>
 <span class="tag">For first-year students, no experience needed</span></div></div></header>
 <nav><div class="wrap"><a href="#start">Getting started</a><a href="#lectures">Lectures</a>
-<a href="#showcase">Showcases</a><a href="#final">Final project</a><a href="#credits">Credits</a></div></nav>
+<a href="#showcase">Showcases</a><a href="#extras">Going further</a><a href="#final">Final project</a><a href="#credits">Credits</a></div></nav>
 <main>
 <section id="start"><div class="wrap"><h2>Getting started</h2>
 <div class="callout yellow">The lecture slides are on <strong>Moodle</strong>. This site has the code.</div>
@@ -79,7 +81,7 @@ or run the "Plan B" cell that builds the same data for you.</li>
 <h3>Part 1 &middot; Getting started</h3>
 <details class="lecture"><summary><span class="num">1</span><span><span class="ltitle">Hello, Python!</span><span class="topics">What programming is, AI and LLMs, Colab and print</span></span></summary>
 <div class="nb"><span class="name">Hello, world! <span class="file">L01_01_hello_world.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_01_hello_world.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
-<div class="nb"><span class="name">print shows text and math <span class="file">L01_02_print_text_vs_math.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_02_print_text_vs_math.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
+<div class="nb"><span class="name">Print shows text and math <span class="file">L01_02_print_text_vs_math.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_02_print_text_vs_math.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Comments, notes for humans <span class="file">L01_03_comments.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_03_comments.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Your first bugs <span class="file">L01_04_first_bugs.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_04_first_bugs.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="folder"><a href="https://github.com/drorjac/python-course/tree/main/notebooks/L01" target="_blank" rel="noopener">All files for lecture 1 on GitHub (incl. data)</a></div></details>
@@ -90,7 +92,7 @@ or run the "Plan B" cell that builds the same data for you.</li>
 <div class="nb"><span class="name">Bug Zoo, variables edition <span class="file">L02_04_bug_zoo.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L02/L02_04_bug_zoo.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="folder"><a href="https://github.com/drorjac/python-course/tree/main/notebooks/L02" target="_blank" rel="noopener">All files for lecture 2 on GitHub (incl. data)</a></div></details>
 <details class="lecture"><summary><span class="num">3</span><span><span class="ltitle">Input &amp; Output</span><span class="topics">print and input, type conversion, f-strings, a first if</span></span></summary>
-<div class="nb"><span class="name">print and input <span class="file">L03_01_print_and_input.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_01_print_and_input.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
+<div class="nb"><span class="name">Print and input <span class="file">L03_01_print_and_input.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_01_print_and_input.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Conversions and f-strings <span class="file">L03_02_fstrings.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_02_fstrings.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Your first decisions <span class="file">L03_03_first_if.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_03_first_if.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Bug Zoo <span class="file">L03_04_bug_zoo.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_04_bug_zoo.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
@@ -115,11 +117,23 @@ or run the "Plan B" cell that builds the same data for you.</li>
 </div>
 <p class="topics">More showcases coming: S2, S3, S4.</p>
 </div></section>
+<section id="extras"><div class="wrap"><h2>Going further</h2>
+<div class="callout purple"><strong>Optional.</strong> Not in the homework, not on the exam. For students who finished the lecture notebooks and want more: extra tricks for each topic, and big ideas that show how this is used in the real world.</div>
+<h3>Big ideas</h3>
+<div class="lecture feature"><p class="blurb">How did scientists find laws of nature, how does machine learning find them today, and why mixing the two wins. A pendulum, real planet data, and the computer rediscovers Kepler&#x27;s law.</p><div class="nb"><span class="name">Three ways to find a law of nature <span class="file">B1_white_black_gray_box.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/extras/B1_white_black_gray_box.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div></div>
+<h3>One extra per lecture</h3><div class="lecture">
+<div class="nb"><span class="after">After L01</span><span class="name">Text art, special characters and every language on Earth <span class="file">X01_text_art_and_unicode.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/extras/X01_text_art_and_unicode.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
+<div class="nb"><span class="after">After L02</span><span class="name">Numbers in the real world <span class="file">X02_numbers_in_the_real_world.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/extras/X02_numbers_in_the_real_world.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
+<div class="nb"><span class="after">After L03</span><span class="name">Pro formatting and input you can trust <span class="file">X03_pro_formatting_and_safe_input.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/extras/X03_pro_formatting_and_safe_input.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
+</div>
+<p class="topics">A new extra arrives with each lecture.</p>
+</div></section>
 <section id="final"><div class="wrap"><h2>Final project</h2><p class="topics">The final project template appears with lecture 10.</p></div></section>
 <section id="credits"><div class="wrap"><h2>Credits</h2>
 <ul>
 <li>Pip the snake: original drawing for this course.</li>
 <li>All CSV data in the notebooks is synthetic, made up for teaching. No real people.</li>
+<li>Planet distances and years in the &ldquo;Big ideas&rdquo; notebook: NASA Planetary Fact Sheet (public domain). The pendulum data is synthetic.</li>
 <li>The cat photo in lecture 9 comes from scikit-image's sample data (<code>skimage.data.chelsea</code>).</li>
 <li>Code: <a href="https://github.com/drorjac/python-course/tree/main/">on GitHub</a>.</li>
 </ul></div></section>
