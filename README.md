@@ -11,10 +11,12 @@ The lecture slides are on Moodle.
 | Folder | What is inside |
 |---|---|
 | `notebooks/LNN/` | The notebooks for each lecture, plus `data/` where a lecture uses a CSV file |
+| `practice/` | One practice notebook per recitation, with solutions. Practice only, nothing to submit |
 | `showcase/` | One showcase project and one extra per course part |
 | `extras/` | Going further: optional notebooks beyond the course, with real-world stories |
 | `docs/` | The course website (GitHub Pages) |
 
+Everything here is for practice. Homework is handed out and submitted on Moodle.
 To open a notebook, use the "Open in Colab" links on the website.
 All data in this repo is synthetic (made up for teaching).
 
