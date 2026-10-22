@@ -23,16 +23,16 @@ Every notebook was executed top to bottom and is saved with its outputs. The mat
 
 **Open in Colab:** go to colab.research.google.com, choose File > Upload notebook, pick the `.ipynb` file, then run the cells from top to bottom. Everything uses tools Colab already has (random, math, matplotlib, numpy). Both notebooks are seeded, so the numbers match the slides.
 
-## Part 3 Showcase - Poker simulator (+ extra: secret messages)
+## Part 3 Showcase - Casino simulator (+ extra: secret messages)
 
 | Notebook | What it does | Needs |
 |---|---|---|
 | `S3_part3_recap.ipynb` | **Start here.** The summary of Part 3: the counter program cut into functions (`return`, defaults, scope), the menu becomes a dictionary (refactor moment), counting with `get`, seating tables and the day's orders as a list of dicts, median and quantiles by hand, reading tracebacks and print debugging, testing an AI-written median, then counter program 3.0 with a daily report, the Part 3 Bug Zoo, a quiz and a cheat sheet | L07-L08 only |
-| `S3_poker.ipynb` | Builds a 52-card deck with nested loops, names poker hands with functions + dictionaries (counts, sets, rank values), catches the A-2-3-4-5 bug with a mini test table, simulates 100,000 hands and compares them with the exact `math.comb` counts, simulates roulette (house edge 2.7%), and plays a two-player mini-game | L05-L08 (lists, sets, slicing, loops, functions, dictionaries, debugging). `random`/`math` imports (L09) and the matplotlib drawing code (L10) are marked "just run it" |
+| `S3_casino.ipynb` | Roulette first (red set, colour counts with a dict, bet on red vs one number, a million bets → 2.7% house edge, the doubling trick still loses), then a 52-card deck from nested loops, War (the "10" < "9" text-sort bug, fixed with a `VALUES` dict; ties-go-to-the-house → 5.9% edge), simplified blackjack (the Ace bug in `hand_total`, copy-the-dealer and a stand-on-12..20 sweep, all lose), and poker last (hand names with dicts and sets, the A-2-3-4-5 bug caught by a test table, 100,000 hands vs exact `math.comb` counts, two-player mini-game), ending with a house-edge scoreboard | L05-L08 (lists, sets, slicing, loops, functions, dictionaries, debugging). `random`/`math` imports (L09) and the matplotlib drawing code (L10) are marked "just run it" |
 | `S3x_secret_messages.ipynb` | Caesar cipher with `encrypt`/`decrypt`, ROT13, brute-force breaking (all 26 shifts), letter-frequency breaking with a dictionary + bar chart, why 128-bit keys are safe, and a final message to crack | L05-L08. matplotlib (L10) only for the chart |
 
 Open in Colab: go to colab.research.google.com, choose File > Upload notebook, and pick the `.ipynb` file (or open it from Google Drive / GitHub). Then Runtime > Run all. Nothing to install, no files to download.
-Both notebooks are seeded (`random.seed(7)`), so the numbers match the slides. The full poker notebook runs in about 10 seconds.
+Both notebooks are seeded (`random.seed(7)`), so the numbers match the slides. The full casino notebook runs in under a minute.
 
 ## Part 4 Showcase (after Lecture 10)
 

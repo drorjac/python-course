@@ -40,6 +40,8 @@ h3{margin:22px 0 8px;font-size:1.05rem;color:var(--gray);text-transform:uppercas
 .nb .name{flex:1 1 220px;min-width:0;overflow-wrap:anywhere}.nb img{height:20px;display:block}
 .nb .file{font-family:ui-monospace,Menlo,monospace;font-size:.8rem;color:var(--gray)}
 .folder{padding:8px 16px 12px;border-top:1px solid var(--line);font-size:.9rem}
+.slides{background:var(--blue-light)}
+.pdf{display:inline-block;background:var(--blue);color:var(--bg);border-radius:6px;padding:2px 10px;font-size:.85rem;font-weight:600;text-decoration:none}
 .callout{border-radius:12px;padding:14px 16px;margin:12px 0}
 .callout.yellow{background:var(--yellow-light)}.callout.purple{background:var(--purple-light)}.callout.green{background:var(--green-light)}
 .feature{border-left:4px solid var(--purple)}.feature .blurb{padding:12px 16px 4px;margin:0}
@@ -66,7 +68,7 @@ footer{padding:24px 16px;color:var(--gray);font-size:.85rem;text-align:center}
 <a href="#practice">Practice</a><a href="#showcase">Showcases</a><a href="#extras">Going further</a><a href="#final">Final project</a><a href="#credits">Credits</a></div></nav>
 <main>
 <section id="start"><div class="wrap"><h2>Getting started</h2>
-<div class="callout yellow">The lecture slides are on <strong>Moodle</strong>. This site has the code.</div>
+<div class="callout yellow">Every lecture below has its <strong>slides (PDF)</strong> and its notebooks. Homework is on <strong>Moodle</strong>.</div>
 <ol class="steps">
 <li>Sign in to your Google account.</li>
 <li>Below, click <strong>Open in Colab</strong> next to a notebook. It opens in your browser.</li>
@@ -77,9 +79,10 @@ or run the "Plan B" cell that builds the same data for you.</li>
 </ol>
 </div></section>
 <section id="lectures"><div class="wrap"><h2>Lectures</h2>
-<p>Click a lecture to see its notebooks. Each one opens in Google Colab, nothing to install.</p>
+<p>Click a lecture to see its slides and notebooks. Each notebook opens in Google Colab, nothing to install.</p>
 <h3>Part 1 &middot; Intro and Python Basics</h3>
 <details class="lecture"><summary><span class="num">1</span><span><span class="ltitle">Hello, Python!</span><span class="topics">What programming is, AI and LLMs, Colab and print</span></span></summary>
+<div class="nb slides"><span class="name">Slides (PDF) <span class="file">L01_hello_python.pdf</span></span><a class="pdf" href="slides/L01_hello_python.pdf" target="_blank" rel="noopener">Open slides</a></div>
 <div class="nb"><span class="name">Hello, world! <span class="file">L01_01_hello_world.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_01_hello_world.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Print shows text and math <span class="file">L01_02_print_text_vs_math.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_02_print_text_vs_math.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Comments, notes for humans <span class="file">L01_03_comments.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_03_comments.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
@@ -87,6 +90,7 @@ or run the "Plan B" cell that builds the same data for you.</li>
 <div class="nb"><span class="name">Self-exercise <span class="file">L01_05_self_exercise.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L01/L01_05_self_exercise.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="folder"><a href="https://github.com/drorjac/python-course/tree/main/notebooks/L01" target="_blank" rel="noopener">All files for lecture 1 on GitHub (incl. data)</a></div></details>
 <details class="lecture"><summary><span class="num">2</span><span><span class="ltitle">Variables &amp; Types</span><span class="topics">Variables, int / float / str / bool, arithmetic</span></span></summary>
+<div class="nb slides"><span class="name">Slides (PDF) <span class="file">L02_variables_and_types.pdf</span></span><a class="pdf" href="slides/L02_variables_and_types.pdf" target="_blank" rel="noopener">Open slides</a></div>
 <div class="nb"><span class="name">Variables, labeled boxes <span class="file">L02_01_variables.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L02/L02_01_variables.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Types, what kind of value? <span class="file">L02_02_types.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L02/L02_02_types.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Python as a calculator <span class="file">L02_03_calculator.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L02/L02_03_calculator.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
@@ -94,6 +98,7 @@ or run the "Plan B" cell that builds the same data for you.</li>
 <div class="nb"><span class="name">Self-exercise <span class="file">L02_05_self_exercise.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L02/L02_05_self_exercise.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="folder"><a href="https://github.com/drorjac/python-course/tree/main/notebooks/L02" target="_blank" rel="noopener">All files for lecture 2 on GitHub (incl. data)</a></div></details>
 <details class="lecture"><summary><span class="num">3</span><span><span class="ltitle">Input &amp; Output</span><span class="topics">print and input, type conversion, f-strings, a first if</span></span></summary>
+<div class="nb slides"><span class="name">Slides (PDF) <span class="file">L03_input_and_output.pdf</span></span><a class="pdf" href="slides/L03_input_and_output.pdf" target="_blank" rel="noopener">Open slides</a></div>
 <div class="nb"><span class="name">Print and input <span class="file">L03_01_print_and_input.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_01_print_and_input.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Conversions and f-strings <span class="file">L03_02_fstrings.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_02_fstrings.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>
 <div class="nb"><span class="name">Your first decisions <span class="file">L03_03_first_if.ipynb</span></span><a href="https://colab.research.google.com/github/drorjac/python-course/blob/main/notebooks/L03/L03_03_first_if.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a></div>

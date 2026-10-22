@@ -1,7 +1,8 @@
-# Safety net: slides never go in this repo
+# Safety net: slide sources never go in this repo. Only the compiled lecture PDFs on the site.
 *.tex
 *.sty
 *.pdf
+!docs/slides/L*.pdf
 *.pptx
 *.zip
 .DS_Store
