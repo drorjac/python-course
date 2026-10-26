@@ -1,0 +1,8 @@
+# L04 - Making Decisions - notebooks
+
+| File | Used on slide | What it contains |
+|---|---|---|
+| `L04_01_if_elif_else.ipynb` | Indentation means "belongs to", The grade calculator, Example: bus fare by age, Example: what should I wear?, Order matters!, Decisions inside decisions, Try it! (section 1), Predict the output (price) | mood/indentation demo, grade calculator (90/75/56), bus fare with `int(input())`, weather -> what to wear, wrong-order `elif` bug, nested Saturday/raining example; exercises: test grades 99/60/40, add a "Perfect!" level, coffee-price rule |
+| `L04_02_and_or_not.ipynb` | Six ways to compare, = stores, == asks, Example: a password check, Chaining, and in code, or in code, not: flip it, Try it! (section 2), Predict the output (x > 5 and ...) | the six comparison operators printing True/False, `=` vs `==`, password check (case matters), `18 <= age <= 30`, party bouncer with `and`, free entry with `or`, `not raining`; exercises: ages 17/18/30, add a flip-flops rule, youth discount |
+| `L04_03_bits_and_gates.ipynb` | Python speaks binary: bin(), Logic gates, Try it! (section 3), Predict the output (bin) | `bin(5)`, `bin(13)`, `bin(255)`, `int("1101", 2)`, AND/OR/NOT with `switch_a`/`switch_b`; exercises: your age in binary, guess `int("1010", 2)`, the pattern in `bin(2)`, `bin(4)`, `bin(8)` |
+| `L04_04_bug_zoo.ipynb` | Bug Zoo (3 slides) | one cell per bug: missing colon, missing indent, `=` instead of `==`, comparing `input()` text with a number; a text cell with each fix |

@@ -1,0 +1,41 @@
+day,drink,size,price,rating
+Sun,Cappuccino,S,13,5
+Sun,Espresso,S,9,5
+Sun,Latte,L,18,3
+Sun,Tea,S,8,2
+Sun,Latte,M,16,3
+Sun,Latte,L,18,5
+Sun,Latte,L,18,3
+Sun,Tea,S,8,4
+Mon,Espresso,S,9,4
+Mon,Latte,S,14,4
+Mon,Cappuccino,L,17,3
+Mon,Espresso,S,9,3
+Mon,Espresso,S,9,4
+Mon,Latte,L,18,3
+Mon,Espresso,S,9,5
+Mon,Espresso,S,9,4
+Tue,Cappuccino,M,15,4
+Tue,Latte,S,14,4
+Tue,Latte,M,16,5
+Tue,Cappuccino,M,15,5
+Tue,Latte,S,14,3
+Tue,Cappuccino,S,13,4
+Tue,Latte,M,16,5
+Tue,Latte,L,18,3
+Wed,Iced coffee,L,19,4
+Wed,Espresso,S,9,5
+Wed,Iced coffee,M,17,3
+Wed,Tea,M,10,4
+Wed,Espresso,S,9,4
+Wed,Espresso,S,9,4
+Wed,Iced coffee,L,19,3
+Wed,Tea,M,10,2
+Thu,Espresso,S,9,3
+Thu,Latte,M,16,4
+Thu,Iced coffee,L,19,5
+Thu,Tea,M,10,2
+Thu,Latte,M,16,5
+Thu,Latte,S,14,5
+Thu,Iced coffee,L,19,5
+Thu,Tea,M,10,2
