@@ -6,7 +6,7 @@ Lecturer: Dror Jacoby.
 ## 👉 [Open the course website](https://drorjac.github.io/python-course/)
 
 The website lists every lecture with "Open in Colab" buttons. Start there.
-The lecture slides (PDF) are on the website too, next to each lecture's notebooks.
+The lecture and recitation slides (PDF) are on the website too, next to the notebooks.
 
 | Folder | What is inside |
 |---|---|
@@ -14,7 +14,7 @@ The lecture slides (PDF) are on the website too, next to each lecture's notebook
 | `practice/` | One practice notebook per recitation, with solutions. Practice only, nothing to submit |
 | `showcase/` | One showcase project and one extra per course part |
 | `extras/` | Going further: optional notebooks beyond the course, with real-world stories |
-| `docs/` | The course website (GitHub Pages), with the lecture slides in `docs/slides/` |
+| `docs/` | The course website (GitHub Pages), with the lecture and recitation slides in `docs/slides/` |
 
 Everything here is for practice. Homework is handed out and submitted on Moodle.
 To open a notebook, use the "Open in Colab" links on the website.

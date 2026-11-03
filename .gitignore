@@ -1,8 +1,9 @@
-# Safety net: slide sources never go in this repo. Only the compiled lecture PDFs and the syllabus on the site.
+# Safety net: slide sources never go in this repo. Only the compiled lecture/recitation PDFs and the syllabus on the site.
 *.tex
 *.sty
 *.pdf
 !docs/slides/L*.pdf
+!docs/slides/R*.pdf
 !docs/slides/Syllabus.pdf
 *.pptx
 *.zip
